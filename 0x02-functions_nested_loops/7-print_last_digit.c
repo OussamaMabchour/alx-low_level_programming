@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_last_digit - function
- * @l : the input
- * Retun: value of the last digit
+ * print_last_digit - Check Holberton
+ * @l: An integer input
+ * Description: This function prints the last digit of a number
+ * Return: last digit of number l
  */
 
 int print_last_digit(int l)
