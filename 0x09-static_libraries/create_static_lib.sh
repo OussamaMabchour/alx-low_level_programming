@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -c *.c | ar rcs liball.a *.o
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+ar -rs liball.a *.o
+ranlib liball.a
